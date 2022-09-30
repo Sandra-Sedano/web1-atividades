@@ -1,4 +1,4 @@
-export const nav  = /*html*/ ` /* para conseguir colocar a cor aqui no template  baixa a extensão es6-string-html MENOR ES6 MAIOR */
+export const nav  = /*html*/ ` <!-- para conseguir colocar a cor aqui no template  baixa a extensão es6-string-html MENOR ES6 MAIOR  -->
 <nav class="container-fluid">
     <ul>
       <li><a class="contrast" href=" ./index.html">Desenvolvimento Web 1</a></li>
