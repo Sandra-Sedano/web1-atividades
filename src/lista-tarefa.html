@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <title>Desenvolvimento Web 1</title>
+</head>
+
+<body>
+  <!-- Cabeçalho e Menu de Navegação-->
+  <nav class="container-fluid" id="menu"> </nav>
+  <!-- Fim do  Cabeçalho e Menu de Navegação-->
+  <main class="container">
+    <h1>Lista de tarefas </h1>
+    <article id="card-lista-tarefa">
+      <div class="grid">
+        <!--o que tiver de filhos vai alinhar aqui dentro-->
+        <input type="text" id="input-nova-tarefa" />
+        <button id="button-adicionar">adicionar</button>
+
+      </div>
+      <div>
+        <ul id="lista-tarefa">
+          <li class="tarefa ">
+            <div>  Estudar javaScript 
+            </div>
+            <a href="#" role="button">Excluir</a>
+          </li>
+        </ul>
+      </div>
+
+    </article>
+  </main>
+  <script type="module" src="./js/lista-tarefa.js"></script>
+</body>
+
+</html>

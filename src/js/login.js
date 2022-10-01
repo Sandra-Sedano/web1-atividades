@@ -1,3 +1,2 @@
-import '@picocss/pico'
-import '../css/global.css'
 import '../css/login.css'
+import './nav.js' /*vai importar tudo de nav, vai ser injetada pelo javaScript*/
