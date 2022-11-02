@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="../src/css/lista-tarefa.css">
     <title>Desenvolvimento Web 1</title>
 </head>
 
@@ -13,11 +15,13 @@
     <nav class="container-fluid" id="menu"></nav>
     <!-- Fim do  Cabeçalho e Menu de Navegação-->
     <main class="container">
+        <h2>App Lista de Tarefas</h2>
         <h1>Lista de Tarefas</h1>
         <article id="card-lista-tarefas">
             <div class="grid">
                 <input type="text" id="input-nova-tarefa" />
                 <button id="btn-adicionar">Adicionar</button>
+                <ul id="lista-tarefas"></ul>
             </div>
             <div>
                 <ul id="lista-tarefas">
