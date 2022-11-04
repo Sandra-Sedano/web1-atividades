@@ -17,7 +17,16 @@ li.innerHTML = `
 <div>${descricaoTarefa}} </div>
 <button class="btn-excluir">Excluir</button>
 `
-listaTarefas.appendChild(li)
+/*************************************************REMOVER TAREFA******************************************************************* */
+
+li.addEventListener('click', function(event){
+   if(event.target.className ==='btn-excluir'){
+    listaTarefas.removeChild(li)
+   }
 
 })
+listaTarefas.appendChild(li)
+})
+
+
 
