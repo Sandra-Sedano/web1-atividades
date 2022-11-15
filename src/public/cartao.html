@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="cartao.css">
+    <title>Detalhes do pagamento </title>
+</head>
+
+<body>
+
+    <h2 class="detalhe">Detalhes do pagamento </h2>
+    <article id="card-cartao">
+        <div class="grid">
+            <form action="cartao">
+                <label for=""> Numero do cartão: </label>
+                <input type="number" id="numero">
+                <label for="nome"> Nome: </label>
+                <input type="text">
+                <label for="data"> Data de vencimento:</label>
+                <input type="date">
+                <label for="number"> Código de segurança (CCV) </label>
+                <input type="number" required maxlength="3" minlength="3">
+                <button class="button">Confirmar</button>
+            </form>
+            <div class="credit-card">
+                <div class="credit-card-front">
+                    <div class="card-type">
+                        Cartão de Crédito
+                    </div>
+
+                    <img class="flag" src="../src/visa-logo.png">
+
+                    <div class="card-number">
+                        #### #### #### ####
+                    </div>
+                    <div class="card-holder">
+                        Fulano de Tal
+                    </div>
+                    <div class="expiration">
+                        06/2021
+                    </div>
+                </div>
+                <div class="credit-card-back">
+                    <div class="stripe"></div>
+                    <div class="ccv-block">
+                        123
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </article>
+
+</body>
+
+</html>
